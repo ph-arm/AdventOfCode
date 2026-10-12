@@ -1,0 +1,354 @@
+{
+  "AdventOfCode2022": {
+    "day_01": {
+      "part_one": "8d4deab25d0adc665325079c0565807e6719faaef3e3c1506bec4a92d27bb82d",
+      "part_two": "216278e155d027551d06e6f580b7a17b882cd7380eb19cb277feecb5f95dc868"
+    },
+    "day_02": {
+      "part_one": "66ea59bfbf43cd3630e3a7cd92f73c6065fc2e4f608bc81dd83930d622550fbd",
+      "part_two": "4197947a45e5e649e8aeac2dafdabf5b7e59dc2065e27d813fef4cc4bdc4e6ff"
+    },
+    "day_03": {
+      "part_one": "89d6aac5e0b914e3b82820f9691e02803786833387db7f0ad09000b83ee212ee",
+      "part_two": "4da692391701da107842ef406baadd5915b3923ba2a06e156a337dd2d958e93e"
+    },
+    "day_04": {
+      "part_one": "87e50b28705900bb064d1e9df1bd6cf55a7efa01cc16c6cf0703f491a1f13d44",
+      "part_two": "85e36899399df701301f6741ffab57962a14326584b6f082ae0e87d90e492fd4"
+    },
+    "day_05": {
+      "part_one": "0bc4a786aaf35ff5c3c059bb19768b3c17c830a17901e380a7415d96ffec8469",
+      "part_two": "7caef80c77d996c01aa73461f0c32025b045dd3c93a3edfc722286681090155a"
+    },
+    "day_06": {
+      "part_one": "32eb1a8dafeb0873c8d00b0e9058c8c77ff6c6d9235b3236989c50ef63d8f9ba",
+      "part_two": "62fe739825059f3098bcdba9e0ee2d62b18c24b8bb98dbb385551e9a04526b3c"
+    },
+    "day_07": {
+      "part_one": "aa90af269ff9c4eb0d3fb715732aa35e2cdede28923b3b63373b928559314bcd",
+      "part_two": "5cc893c71430c9bdf2de8dbc556158e49a80c9d97c97a335ff24a5e3c44d06f5"
+    },
+    "day_08": {
+      "part_one": "2ed927e972728bc356c12808c31656d17ce6a4afded459165923d4b5c25ffd4f",
+      "part_two": "4a33ba55d443fa391f773d5477dbcc8604d4f57f9205442a7b63d863515ffdad"
+    },
+    "day_09": {
+      "part_one": "12387fae8391114de975fd051e6619caa15d46171a27ddc63a6c4562c9b75da6",
+      "part_two": "0844b610d6b7b1eebaa9b672e9cf973ca1795ea9f208d53d6c9ab9eef5cc67c9"
+    },
+    "day_10": {
+      "part_one": "f322392c7e9ef639e6a1b1719dd83d4f618f118c640d303231e099ad0349f952",
+      "part_two": "3f2dd08d100e47e6c2dd960e03cf4fa0daf7fd1952c28855a89ee67905c99687"
+    },
+    "day_11": {
+      "part_one": "a8378b9b5bc7c4535d24c3eb5dced936ce65119f7edf6a75afe2e2c491a36ab6",
+      "part_two": "2c2727bf08753a1655e424a4d9cba32365a4715b809aad2da0aa0f046e661049"
+    },
+    "day_12": {
+      "part_one": "73daa9289ddd08a53ba86f065ddb07bf915aba208bec652e999613d2a8444228",
+      "part_two": "09a1b036b82baba3177d83c27c1f7d0beacaac6de1c5fdcc9680c49f638c5fb9"
+    },
+    "day_13": {
+      "part_one": "a388f562e286fdf28986f9253579f4d096446e01dd0c771996a51ff11b390fa2",
+      "part_two": "ce58830a96317066adb2c73448310407ab26d8be3c603dfe703e0af9d6702f38"
+    },
+    "day_14": {
+      "part_one": "23c5910b8b10cfa86e40099cf01e5c2b36f4dd0a903f0c60e5517ea177f4d390",
+      "part_two": "fb9563430c00e2c28821005b93218f6668b8525d779079e95452f8524fbc46e9"
+    },
+    "day_15": {
+      "part_one": "ef82f7388146abf35e4360158a067cca13de00b716d48890f785e3e2c5797600",
+      "part_two": "7ad637ed17fcdf2a442b528527f20fc0ccabfb721605073bbd71bc24c7937042"
+    },
+    "day_16": {
+      "part_one": "35fcdee9b9238f7ed41a17b8d4dfafdeb0577917191150eb43567d5163a20c72",
+      "part_two": "c838df5335c1eba2532f32090cd555d17c9e218289d99ecaf55525d7b199aa88"
+    },
+    "day_17": {
+      "part_one": "9f1852598c61072889b49e34db410d0fd1b1af29332186bfe169fe81546e47d4",
+      "part_two": "bdb80346001460a7b65ae9249ad83d5cac31601f04fddaa4b1c9f08ee89c1fd0"
+    },
+    "day_18": {
+      "part_one": "af545f4ae604100bd0d8a196ab375b660b6138cbac76f308680934d84f30490b",
+      "part_two": "6ae9e4d22c4670b9140fc378214b3274fb3f64d16058717f974515000680b24c"
+    },
+    "day_19": {
+      "part_one": "9c499c3ddf63c6ea23a4831f4ab64c36c8e5d64461dc4f09e12cf6d4da78ca4b",
+      "part_two": "79944709f536e2972d913a5e3705d89ed55b82becdd4f5c3dcd017bbfd75412f"
+    },
+    "day_20": {
+      "part_one": "ed50aa5eaea84999925390efbbadf1fd8c55fcbce52cb920a5ec968acb8237a6",
+      "part_two": "e018ea512ad7da47cb7cb6877f81799ea18d9ffa189ad110e73774c2e429bfe8"
+    },
+    "day_21": {
+      "part_one": "205cf7e27940a08a5ad8ccdf9c6d88178c61cae1ebcffe40827f6418144c2e57",
+      "part_two": "45efbb0d0493c5f6f7ee8ce688e6ad18184aa3d88e25d69d47e361cef473b51a"
+    },
+    "day_22": {
+      "part_one": "a949c380c5d0578232cc8901434847658cf70ce7ef69d38b09980a9837cb622c",
+      "part_two": "c04dd8aeda80341a21cd2d2e598bb9ed16e306855ed61719ff958a1ad7f6d7d1"
+    },
+    "day_23": {
+      "part_one": "bfc57feb2cbcfaf1c2f54172ff49665bbe60629e9cc1494b7a77a7b2baff3743",
+      "part_two": "759b87b87ba0c0c701d14eb2e6e31560929e93591537818856d079634ee1bb68"
+    },
+    "day_24": {
+      "part_one": "4c970004b0678d439f177e77d3cabdb7e9a44df770948ddc2467cbc76b7211c3",
+      "part_two": "43d244581aa23a744de9d775979165eb226a80e2cce6c0d0885412c9b6a0dbdf"
+    },
+    "day_25": {
+      "part_one": "1b4e95fa519ba1c0edd06e73f4cc22dbb850465af95f88571487d39647f7f798"
+    }
+  },
+  "AdventOfCode2023": {
+    "day_01": {
+      "part_one": "85bee77732e82a694cea3b745a764e324eb3c47dfcbb241a9b327c0e6a7335d8",
+      "part_two": "bdada3bc39cc9cbc5172f1c4987d86cfeba0bc592e2ae7e581679bbb259c8b1e"
+    },
+    "day_02": {
+      "part_one": "85d1fb597319e35e98bcff0a347330b8929fe50b02e88af1b91d89ba087dbd09",
+      "part_two": "d11fc8a17c16ae2f2053b7d4dd929d21cff557005fc2c1b1f22966f37615ae3e"
+    },
+    "day_03": {
+      "part_one": "b8c13d982a6ea004f3837447ea23d39db69a124dc1ffdb8915d32c07ac7076e4",
+      "part_two": "57b1ab835a097d53ee8749766033fc320f11573300dd6c730025743b481a8266"
+    },
+    "day_04": {
+      "part_one": "f7ebfddf394a2708c37bbdd168dbee47a0613becb52cbbfe94c3bf51a8638cd0",
+      "part_two": "52c1d64d2a78bbb026c045af165e6b676072e4b466dfa2de4a3c3cf7a96a88f6"
+    },
+    "day_05": {
+      "part_one": "1ebfd92086e84df3da2cd72b5a77cd4aa73e9287adb1cb29a61195c9ab84c6ef",
+      "part_two": "a39b41136bb700ca1cd1e0451f1e04b0140220ff8b3e92cbb1116376367def9b"
+    },
+    "day_06": {
+      "part_one": "0f533e4182da04576507855af005ceb112e9c65840ad83702279c0d6e5f47c21",
+      "part_two": "e3c45b8e2371b781cf0301d45ea78913d6f68c86a43d141e56b3c92dcf88ae85"
+    },
+    "day_07": {
+      "part_one": "5f5bfeb0060b7350c863e92353f27f0fdb484a31b47dd7c0a3e31e91397d1a63",
+      "part_two": "f360481373ea65b7e36e55e3318351045976bd1dd5067ccc7987e58b16103baf"
+    },
+    "day_08": {
+      "part_one": "60b2bfc4b2847f9d6f165c53a119f4093078950603eb646140c47dd97fed6d79",
+      "part_two": "cb78ce642c8cec2d6bfe99e24859c3370eb8e72f70a7696fecf767a60490c869"
+    },
+    "day_09": {
+      "part_one": "b582b120c9ff887e55259937f50c15ce30b71c5db19fff85fd05df52e281cd1b",
+      "part_two": "3e34b5dc434bcf3186f089d362691cfac1b17231601f2f402dc79015be878d83"
+    },
+    "day_10": {
+      "part_one": "905daf4b6cccc72219061385971997edb3f6d57cd9494967da9cd04acd350f83",
+      "part_two": "f747870ae666c39b589f577856a0f7198b3b81269cb0326de86d8046f2cf72db"
+    },
+    "day_11": {
+      "part_one": "125ce5b373aff6af22ffdf57cb7e7899c3cd200d6ee7cb5efef5eb5580b47351",
+      "part_two": "afd66b48e078324639542865821032ae2e61701f159c10fd0707c8c776cfd13a"
+    },
+    "day_12": {
+      "part_one": "e695386731558526b18b65ec242da656db766549d32502c88dd42a2a796c1029",
+      "part_two": "b14b718bbc68c9c3cd479106f5e28072cc3d9ca9fabd2288545f790cf92ef2e5"
+    },
+    "day_13": {
+      "part_one": "3cc5055c781a1ef5cea69e7a9815cd4eefeb9a14a2f00444bafdbd26f99ca4d9",
+      "part_two": "c803d3dda736d11f6c9ae2b637a7929738769b9b94e12493e00a6d3003a0586d"
+    },
+    "day_14": {
+      "part_one": "5e0098e5489b70d58c94ba68e57aac4b8a5e6cf3c5b7d5b68409d71b99e63d42",
+      "part_two": "14644a79d0f531df3ac424913c8f562437fc8d033ef15b8f0f6129719de90775"
+    },
+    "day_15": {
+      "part_one": "02dadb72209a9a9670a5b06bbb106acc070da19475871c35eda98aa8e1b007a7",
+      "part_two": "6740a616d0ed7fff83ae86db214e978e5d5e5d2faf06a5cbe95e1976bcf4a545"
+    },
+    "day_16": {
+      "part_one": "de8736cc048486e16dcd174d8f5f0bc3e19aa4f0b0c26a19572b4cfafa5b31ca",
+      "part_two": "74ed8ca63e8b4fb8b8ac06e8df400f098b0b09cf1b89c8a331e72e1919b57bd4"
+    },
+    "day_17": {
+      "part_one": "6ffbae9aaff664bd4739f51a6c7883a2c3ce74e9227a6aff728d0d57ad56f234",
+      "part_two": "dff17949eb4f9ecd9361bb97c38a9404f3d034565e5d4395f073c0c367b5ea0b"
+    },
+    "day_18": {
+      "part_one": "8cf546de3f9f02e1a3641fa87726c9b822336e2918d441c4ab82dfd3d02dda56",
+      "part_two": "4502c774630f730b4250bf5077ca7d795d4936681fe4aafe9330d01cd40651f9"
+    },
+    "day_19": {
+      "part_one": "26de5382178a1586be396b80894dfc8b626a7df0854c64f3d3c4625ae6402fd7",
+      "part_two": "5599070944cdfb9a261e7a3d4f5a8fa454d48f184970b58f9460bed39e9feebf"
+    },
+    "day_20": {
+      "part_one": "feb779aa004535113534f6d6eea57008a96ec82bc2941c224ccf14f08c3a4ccf",
+      "part_two": "2f0f7f4f259fce464a7f99b1b9c4b797ad65b1747e83a636177b9f055885bdc6"
+    },
+    "day_21": {
+      "part_one": "33b66ae561a759b8589d97dcea4dd859c39ed50dc2b5419a7e8aad1ace8e103f",
+      "part_two": "93716392058739c695d2448eeccf89751c254e6c734504f20eb376defba1c37b"
+    },
+    "day_22": {
+      "part_one": "a4ecdd704d258aa841bb3f9a1e3b0cafc59bd88810e542f8e7a0519809d78fe7",
+      "part_two": "730f78859a97f0afef2864e663d16841671452fb902808b3e055adcef449f5b7"
+    },
+    "day_23": {
+      "part_one": "58763bceaddcad6777063dd590cb8e50211b6bb7a11272110fef4060142ded20",
+      "part_two": "8a541e403b7f7dd048d2b9b0c807ed86169bd712228075f82ba414e6a5979f5b"
+    },
+    "day_24": {
+      "part_one": "75e08a55706324e3cd2dbc7c28bbee91625c0d5e9aff93907604471eeb0b1045",
+      "part_two": "25c83b3124a60bb1691a371efec6bc94d0f921c8b08901c71b9c54b7873cfb89"
+    },
+    "day_25": {
+      "part_one": "da73e5914c3c16295055bda90ff59cc847af5813dd6e6da5b76687f053c24d5a"
+    }
+  },
+  "AdventOfCode2024": {
+    "day_01": {
+      "part_one": "a191b912d6c32b1d6e1165f428c97b88717d31bf373e0ba27394f164b11b9e43",
+      "part_two": "60b126c35b0c4c26eca7a5e3a493f81e890273229e98d54f0ff5e378473be158"
+    },
+    "day_02": {
+      "part_one": "7104741a92e73eb6c5d69cd04cf0afbe50a8796a010d8fa25daaf79e5e173bf3",
+      "part_two": "188c1fdca79d927f6e812133173fc41d3a4e57074de521020274caa9bb29af7d"
+    },
+    "day_03": {
+      "part_one": "916204263ef702bb486bd5f36bb545f9a5b35a7a1dc3c5ae2246b0fd5d7b4363",
+      "part_two": "d2e336507896e1eb9ebc22f0f2d8c2a2dde3449a56d0983aca91b2d66c3403dd"
+    },
+    "day_04": {
+      "part_one": "df91d97b8518e7a95c11b21218d4be8306c42ff83eee9e879a2a81a8518f6424",
+      "part_two": "8f0f97e140e126a4404a09eb1e14a53b7c742701c4290a5d1702d14daec22ee8"
+    },
+    "day_05": {
+      "part_one": "b343addd7aa6b85a2ee277a457f52bdff834dbcd962f2c5a2d14bb151dae897f",
+      "part_two": "c4be3389854d34a894ee951d7b1a8e37807671b5d8701de81dd8ec71ada4bf0f"
+    },
+    "day_06": {
+      "part_one": "965aa125a2917c2984facddfe8a868f640834b9ccbae009f164054779df80bc9",
+      "part_two": "95fc6cd8aeb992c4169c1f26d4514523b37130b38ce5ca12500e621145be3e15"
+    },
+    "day_07": {
+      "part_one": "ace19804e98c0239d9104eaf64dab7927a11fc944da6d80069b0160823a4d060",
+      "part_two": "d382f9325d396984210545d983423df6bf84eb0a0e92b1519275bb1b94423cef"
+    },
+    "day_08": {
+      "part_one": "3c1b7053f0edd447b778edbc0ad8359b0fa892d69857d9bd5e6b19007bb3f01e",
+      "part_two": "15197cf7214b58e67cae565e573ffd9aa44bcb81f8ee5d7185dfe8da0a16ef43"
+    },
+    "day_09": {
+      "part_one": "42e2632f17d44d916bc64b207d25069f8d534deb5f4656a2c37c0d08e9f100b9",
+      "part_two": "84d410e609c347bbdb65acb2004028fba116ed79e55efa5e8660a6c9c02643b7"
+    },
+    "day_10": {
+      "part_one": "10e4e7caf8b078429bb1c80b1a10118ac6f963eff098fd25a66c78862ae5ebce",
+      "part_two": "672eb365c903a3b4558bebaef687a5fe9599d87f8b816558d88cc53f5ae9e577"
+    },
+    "day_11": {
+      "part_one": "6c14c92f54f4fc38329a7ca3f97fcc2aa3de14690f86ecb50b91a498403bfd1b",
+      "part_two": "e9beb6fed8d14676a6002e3c2e6c42f9c138eb5076ec87a4270331173e2ef77b"
+    },
+    "day_12": {
+      "part_one": "35ff0fe26bdd716d2de52737118bd05c9ab9f7f0dcd41488861819e82912ec52",
+      "part_two": "c3f0c615b2b76ffde89b5e73e3b7f1c5d621e452357ebc20ed7846b463b4b6f1"
+    },
+    "day_13": {
+      "part_one": "21906202c82f33cfd94c8a01cad415719b39f4a85904fc377e82385744fa8377",
+      "part_two": "7aaa659b6a73962236b7eda5c9952e484f0b6adac03388875ac64d7716f5925b"
+    },
+    "day_14": {
+      "part_one": "d7970da963aeed5599fbf0ab73fd50f87acb77026727b962c0baae7eafcc4d1a",
+      "part_two": "52cd9c241ab06cc362b4716dce71a250cd2a196dad11fcded645e245e7eaf139"
+    },
+    "day_15": {
+      "part_one": "5f01876c06c4e27d565afce06d5ebde83006b1ccd370f435d3f6b485c971bd7c",
+      "part_two": "d2f8533b856501fcd02fdb0957ab1236c607e3b0bf4741d02ef33d846fb171fc"
+    },
+    "day_16": {
+      "part_one": "093f36cbdf29c2b0a018b7594b7f7f2146e965c09a8ead75302bb63c498cc498",
+      "part_two": "236b565af6b512826fd89dbbde2e88b94465f780985c134e58b62dea6ee258b2"
+    },
+    "day_17": {
+      "part_one": "cfae11097153562bd9916d66c22771049db306cb12fcc151f4b3533448df7446",
+      "part_two": "50f9c39ae5efc1254de7bb45fabfd34b05b093bb41897098529526350e301015"
+    },
+    "day_18": {
+      "part_one": "1e68ed4e3d58a51096a7feea3947f40debf1fd9246ec977eb62ab93c81823ad9",
+      "part_two": "cbbdbe40402afd1a9fc26cb91f8ebaafe8708ad7c2cb6bd71b3021e267db6b16"
+    },
+    "day_19": {
+      "part_one": "556d7dc3a115356350f1f9910b1af1ab0e312d4b3e4fc788d2da63668f36d017",
+      "part_two": "157705e22732f04015faecdca5accce8732e0a9a65b9201843d8a482efd11c59"
+    },
+    "day_20": {
+      "part_one": "a1271642c26ded1a08fc67a7791aa368ec32e76940cf6f15e779d091f31439fb",
+      "part_two": "d95b3b2fe5125abc98ba5105f1fc65b83706a498650f773b68d6f946be77cd0d"
+    },
+    "day_21": {
+      "part_one": "7e008ae668560839a3a823658e129f6f45c97f51853e32a2d5eeab43ee5a150d",
+      "part_two": "027567f732a0c71288b7a513bab3d264aabff220d01a51d2eb4a938339f2142b"
+    },
+    "day_22": {
+      "part_one": "ae6c15e76c226b553c1e2e56346b4e4fd4add66e7dba87fda24fe7db5fb2b3f9",
+      "part_two": "a1271642c26ded1a08fc67a7791aa368ec32e76940cf6f15e779d091f31439fb"
+    },
+    "day_23": {
+      "part_one": "055f78940c07630352676197ab7c3ed8d5bb204d406e5c6ff101f870bc9b7dd7",
+      "part_two": "7cc24544a39d8539146ed8e2579087b3d9a8cce2f6d545d44ebe6499f8d5f40c"
+    },
+    "day_24": {
+      "part_one": "43c3912919129b003a042dd51fe952c665da944b574a1bc90bde30fb16004b43",
+      "part_two": "c6cd2b1df723c15fc22aa6466439eb99d9ab26f33bdc91cb9ff946a55986ddde"
+    },
+    "day_25": {
+      "part_one": "5abc1ce2653dcfb7ba3bf3d691d6acaf693670b9dfae0d16e918ea929bde90c8"
+    }
+  },
+  "AdventOfCode2025": {
+    "day_01": {
+      "part_one": "235aa062e6372588dbae00552abf36b8ff9c315e3da56cf02786980e764630e9",
+      "part_two": "6d8c92ccffa9576cc6d3a56158164f459c677ad72143d4b088bffcc1b01c32b5"
+    },
+    "day_02": {
+      "part_one": "ad3707f3079e5d1b71278e44facb2ca87cf620ceb62bb5880a34c9f6088cecdf",
+      "part_two": "a3eb295fa7ccf8e828e190e513b917c8dd966446d3b7b27d844819e117f72111"
+    },
+    "day_03": {
+      "part_one": "25901bad3c898a01c04c93bb76be9566616c5c7943e3a4eacc1df18483c25225",
+      "part_two": "13c4a8d89a35abf522ef012a9a6c7d7ef07a08347ef9a64fe1411633f78f41c0"
+    },
+    "day_04": {
+      "part_one": "6f42ae6ab479ee1698056d7ac5452bd3ccdedf788e1d78e5c1098ee13ee00f2b",
+      "part_two": "ffb8a68d5b41cb3e233d15c76739c0852331605d644ef7be74d4ceff31a47142"
+    },
+    "day_05": {
+      "part_one": "c32ffef1ae0cabc0576614cb4d2064cea5bd9c0fa13c7b8bb9fb9b4e8ba950a9",
+      "part_two": "dc8357757cf0725663676dc69ce1cec4fd964748051d21961499c124f1633742"
+    },
+    "day_06": {
+      "part_one": "81aa135ae9ec1f3971a73329d19b07a5b9979c5f5c18387b47406870ae2105ab",
+      "part_two": "3ba472f44c25a15e1b57f7181490a8d476cabc8f32a71ceafcd4a6b5e5334db6"
+    },
+    "day_07": {
+      "part_one": "3ec13115817a014a621e22b052993c86ed03ed69114f8413888f302d70e2d216",
+      "part_two": "8c37612c83d4533737412a13177073522a15efe5832f60db6e05c6d89ac760c7"
+    },
+    "day_08": {
+      "part_one": "b9eca81732356063536c507fe71ca105c5ce3fb92d2bdc8747d94f83d3f9eddc",
+      "part_two": "51518d3a06e4b32acf2a7663b00ef8407b5e6ddbb4f301f8037d19fdbc26e023"
+    },
+    "day_09": {
+      "part_one": "c33afd9a412e1d9b7b506750503b60e9743edb5f7dfdde8b19912dff102a6506",
+      "part_two": "add0b9a112417a908e638b6923f4bdcf0b9382e76d4cb1666cd637837f3c9bb4"
+    },
+    "day_10": {
+      "part_one": "2d86377d4cc3e6c85bab00dd407f8c5b657c239c6af3109de6cdf4d418aa2d89",
+      "part_two": "fd2dab29791ce3468684f58b4c75e564c631969388fb075f9f70eccfdac98bdb"
+    },
+    "day_11": {
+      "part_one": "dcb5d6e69e4ded78464ae2843f509daf65c9ca09dfdc9b5ad69166341963a877",
+      "part_two": "0a0a7463225821437f394f2d0518fa28c32bd166da81cf7d2d4908a31042b8ad"
+    },
+    "day_12": {
+      "part_one": "f64f410744d9470ffe2d6b9ee6f042cdffcc42a745d2568146e8782ea828ff48"
+    }
+  }
+}

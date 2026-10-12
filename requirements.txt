@@ -1,0 +1,17 @@
+# Advent of Code - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core scientific computing (used across all years)
+numpy
+
+# Image processing (2022 day_14 visualization)
+Pillow
+
+# Fast hashing (2022 day_19 optimized state deduplication)
+xxhash
+
+# Symbolic algebra (2022 day_21 optimized equation solver)
+sympy
+
+# Plotting and animation (2024 day_14 robot visualization)
+matplotlib

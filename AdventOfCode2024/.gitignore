@@ -1,0 +1,2 @@
+# Ignore any file named input.txt in this directory or any subdirectory
+**/input.txt

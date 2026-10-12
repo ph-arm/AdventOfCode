@@ -1,0 +1,9 @@
+# Advent of Code - development / lint dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Linter + formatter (configuration lives in pyproject.toml)
+ruff
+
+# Type checker and maintainability-index reporter (run in CI)
+mypy
+radon

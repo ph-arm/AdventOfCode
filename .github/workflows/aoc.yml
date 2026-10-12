@@ -1,0 +1,68 @@
+name: AoC Solutions
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  run-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install age
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y age
+
+      - name: Decrypt puzzle inputs
+        env:
+          AGE_SECRET_KEY: ${{ secrets.AGE_SECRET_KEY }}
+        run: |
+          echo "$AGE_SECRET_KEY" > /tmp/age-key.txt
+          find . -name "input.txt.age" | while read f; do
+            out="${f%.age}"
+            age --decrypt --identity /tmp/age-key.txt -o "$out" "$f"
+          done
+          rm /tmp/age-key.txt
+
+      - name: Benchmark solutions (median of 5 runs)
+        env:
+          BENCH_RUNS: "5"
+        run: |
+          mkdir -p docs
+          python benchmark.py
+
+      - name: Build GitHub Pages site
+        run: |
+          python .github/scripts/build_site.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

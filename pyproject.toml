@@ -1,0 +1,75 @@
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+# exclude sample/test input files that may be inside day directories
+extend-exclude = '''
+(
+  /(
+    \.venv
+    | __pycache__
+  )/
+)
+'''
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+exclude = [
+    ".venv",
+    "__pycache__",
+    "*.age",
+    "_*.py",  # Exclude helper/test/experiment files prefixed with underscore
+]
+
+[tool.ruff.lint]
+# Lean rule set for casual AoC puzzle scripts: catch real bugs and keep imports
+# and syntax tidy, without demanding docstrings or type annotations everywhere.
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # Pyflakes (undefined names, unused imports)
+    "I",   # isort (import ordering)
+    "B",   # flake8-bugbear (likely bugs)
+    "N",   # pep8-naming (tooling only; puzzle dirs exempt below)
+    "S",   # flake8-bandit security (tooling only; puzzle dirs exempt below)
+    "UP",  # pyupgrade (modern syntax)
+    "RUF", # Ruff-specific rules
+]
+ignore = [
+    "E501",  # line length — ruff-format handles wrapping
+    "B007",  # unused loop variable — common in AoC enumerate loops
+    "B023",  # function uses loop variable — common AoC pattern
+    "B904",  # raise ... from err — unnecessary ceremony for AoC
+    "B905",  # zip() without strict= — unnecessary for fixed AoC inputs
+    "B912",  # map() without strict= — unnecessary for fixed AoC inputs
+    "UP007", # use X | Y for Union — leave existing annotations as-is
+    "RUF012", # mutable class default — ClassVar annotation not needed for AoC
+    "RUF015", # list(x)[0] vs next(iter(x)) — micro-optimization, not worth churn
+    "RUF059", # unused unpacked variable — fine in AoC destructuring
+]
+
+[tool.ruff.format]
+# Use ruff-format (black-compatible) as canonical formatter going forward.
+# Run: ruff format <dir>
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff.lint.per-file-ignores]
+# Puzzle solutions use math-style names and eval/assert on trusted fixed inputs;
+# keep N (naming) and S (security) enforced on the shared tooling only.
+"AdventOfCode*/**/*.py" = ["N", "S"]
+# 2024 uses "from shared import *" intentionally — one shared data module per day
+"AdventOfCode2024/**/*.py" = ["F403", "F405"]
+
+
+[tool.mypy]
+ignore_missing_imports = true
+# Type-check the shared tooling only. Puzzle solutions are untyped throwaway
+# scripts and reuse module names (part_one/part_two/shared) across day folders,
+# which mypy cannot map to distinct modules.
+exclude = [
+    '\.venv',
+    'AdventOfCode\d+/',
+    '(^|/)_[^/]*\.py$',
+]

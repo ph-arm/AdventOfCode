@@ -1,0 +1,10 @@
+aaa: you hhh
+    you: bbb ccc
+    bbb: ddd eee
+    ddd: ggg
+    eee: out
+    fff: out
+    ggg: out
+    hhh: ccc fff iii
+    iii: out
+    ccc: ddd eee fff
